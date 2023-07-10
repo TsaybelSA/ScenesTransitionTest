@@ -8,8 +8,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-    let customTransitionDelegate = TransitioningDelegate()
-
     private var fromView: UIView?
     
     @IBOutlet weak var tappableImageView: UIImageView!
